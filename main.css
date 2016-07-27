@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin:0px;
+    /* Sets as default clear*/
+}
+
+#container{
+    width:960px;
+    margin:auto;
+    
+}
+
+
+.banner h1 {
+    text-align:center;
+    color:#00e6e6;
+    font-size: 60px;
+    font-family: 'Neuton'; 
+    text-decoration: none;
+}
+
+.banner a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(IMAGE/background-image.jpg);
+    background-size:contain;
+
+}
+
+.banner {
+    text-align:center;
+    color:#00e6e6;
+    font-size: 70px;
+    font-family: 'Neuton';
+}
+
+.menu ul{
+    display: table;
+    width:100%;
+    margin: 30px 0px;
+    padding: 0px;
+}
+
+.menu ul li{
+    display: table-cell;
+    text-align: center;
+    width: 25%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #00e6e6;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Neuton',sans-serif;
+}
+
+.menu a:hover{
+    font-size: 35px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin: 30px 0px;
+    color:#00e6e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin:30px 0px;
+    color: #00e6e6;
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+    color: #00e6e6;
+    margin:15px;
+    padding: 0px 90px;
+    
+}
+
+.background-opacity{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.feather-image {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.leather-image {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.image-3d {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
